@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecafe4ed-3116-437a-a2b1-2d3649663e8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/service/TextService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/service/impl/TextServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/innowise/taskcomposite/component/TextCompositeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/innowise/taskcomposite/parser/TextParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/innowise/taskcomposite/reader/TextReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/innowise/taskcomposite/service/TextServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComponentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComponentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/component/TextLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/AbstractTextComponentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/AbstractTextParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/LexemeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/LexemeParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/ParagraphParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/SentenceParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/SymbolParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/SymbolParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/WordParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/parser/WordParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/reader/impl/TextReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/reader/impl/TextReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/service/impl/TextServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/innowise/taskcomposite/service/impl/TextServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +64,7 @@
     "JUnit.TextServiceTest.executor": "Run",
     "JUnit.TextServiceTest.testMaxSentencesWithSameWordsCount.executor": "Run",
     "JUnit.TextServiceTest.testSwapFirstAndLastLexeme.executor": "Run",
+    "JUnit.com.innowise.taskcomposite in untitled.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -107,18 +98,34 @@
       <recent name="com.innowise.taskcomposite.component" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.innowise.taskcomposite in untitled">
-    <configuration name="TextReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TextParserTest.testParseLines">
+    <configuration name="TextParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.innowise.taskcomposite.reader.*" />
+          <option name="PATTERN" value="com.innowise.taskcomposite.parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.innowise.taskcomposite.reader" />
-      <option name="MAIN_CLASS_NAME" value="com.innowise.taskcomposite.reader.TextReaderTest" />
+      <option name="PACKAGE_NAME" value="com.innowise.taskcomposite.parser" />
+      <option name="MAIN_CLASS_NAME" value="com.innowise.taskcomposite.parser.TextParserTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextParserTest.testParseLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innowise.taskcomposite.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.innowise.taskcomposite.parser" />
+      <option name="MAIN_CLASS_NAME" value="com.innowise.taskcomposite.parser.TextParserTest" />
+      <option name="METHOD_NAME" value="testParseLines" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,22 +141,6 @@
       <option name="PACKAGE_NAME" value="com.innowise.taskcomposite.service" />
       <option name="MAIN_CLASS_NAME" value="com.innowise.taskcomposite.service.TextServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextServiceTest.testMaxSentencesWithSameWordsCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.innowise.taskcomposite.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.innowise.taskcomposite.service" />
-      <option name="MAIN_CLASS_NAME" value="com.innowise.taskcomposite.service.TextServiceTest" />
-      <option name="METHOD_NAME" value="testMaxSentencesWithSameWordsCount" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextParserTest.testParseLines" />
+        <item itemvalue="JUnit.TextParserTest" />
         <item itemvalue="JUnit.com.innowise.taskcomposite in untitled" />
         <item itemvalue="JUnit.TextServiceTest" />
         <item itemvalue="JUnit.TextServiceTest.testSwapFirstAndLastLexeme" />
-        <item itemvalue="JUnit.TextServiceTest.testMaxSentencesWithSameWordsCount" />
-        <item itemvalue="JUnit.TextReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +219,7 @@
       <workItem from="1763097613886" duration="4559000" />
       <workItem from="1763118069992" duration="1501000" />
       <workItem from="1763119635718" duration="2821000" />
-      <workItem from="1763126256318" duration="1731000" />
+      <workItem from="1763126256318" duration="2294000" />
     </task>
     <servers />
   </component>
