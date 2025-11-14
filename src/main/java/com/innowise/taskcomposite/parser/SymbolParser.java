@@ -4,10 +4,7 @@ import com.innowise.taskcomposite.component.TextComponentType;
 import com.innowise.taskcomposite.component.TextComposite;
 import com.innowise.taskcomposite.component.TextLeaf;
 
-public class SymbolParser extends AbstractTextComponentParser{
-    public SymbolParser(AbstractTextComponentParser next) {
-        super(next);
-    }
+public class SymbolParser extends AbstractTextParser {
 
     @Override
     public void parse(String line, TextComposite parentComposite) {

@@ -3,12 +3,8 @@ package com.innowise.taskcomposite.parser;
 import com.innowise.taskcomposite.component.TextComponentType;
 import com.innowise.taskcomposite.component.TextComposite;
 
-public class SentenceParser extends AbstractTextComponentParser{
+public class SentenceParser extends AbstractTextParser {
     public static final String SENTENCE_REGEX = "(?<=[.!?])\\s+";
-
-    public SentenceParser(AbstractTextComponentParser next) {
-        super(next);
-    }
 
     @Override
     public void parse(String line, TextComposite parentComposite) {
@@ -16,7 +12,9 @@ public class SentenceParser extends AbstractTextComponentParser{
         for (String sentence : sentences) {
             TextComposite composite = new TextComposite(TextComponentType.SENTENCE);
             parentComposite.add(composite);
-            next.parse(sentence, composite);
+            if (getNext() != null) {
+                getNext().parse(sentence.trim(), composite);
+            }
         }
     }
 }

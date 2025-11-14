@@ -1,5 +1,5 @@
 package com.innowise.taskcomposite.component;
 
 public enum TextComponentType {
-    PARAGRAPH, SENTENCE, LEXEME, WORD, SYMBOL
+     TEXT, PARAGRAPH, SENTENCE, LEXEME, WORD, SYMBOL
 }

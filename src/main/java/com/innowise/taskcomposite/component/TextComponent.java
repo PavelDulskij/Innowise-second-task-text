@@ -7,4 +7,6 @@ public interface TextComponent {
     void remove(TextComponent component);
     List<TextComponent> getChildren();
     TextComponentType getType();
+    String restore();
+    int getSymbolsCount();
 }

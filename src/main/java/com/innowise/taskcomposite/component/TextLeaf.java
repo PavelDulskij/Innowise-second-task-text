@@ -33,7 +33,12 @@ public class TextLeaf implements TextComponent{
     }
 
     @Override
-    public String toString() {
-        return value;
+    public String restore() {
+        return String.valueOf(value);
+    }
+
+    @Override
+    public int getSymbolsCount() {
+        return 1;
     }
 }
